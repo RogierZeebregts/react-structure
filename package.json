@@ -1,0 +1,63 @@
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,scss,json,md}'",
+    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:css": "stylelint ./src/scss",
+    "lint:css:fix": "stylelint --fix ./src/scss",
+    "typescript:validate:watch": "tsc --noEmit --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@freshheads/javascript-essentials": "git+ssh://git@github.com/freshheads/freshheads-javascript-essentials.git#semver:^1.3",
+    "classnames": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/node": "^14.14.12",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.5",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.8",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "typescript": "^4.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
