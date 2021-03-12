@@ -1,1 +1,1 @@
-# react-structure
+# structure
